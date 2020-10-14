@@ -6,16 +6,35 @@ MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Factory POC", "Factory POC\Factory POC.csproj", "{2123D0CC-7EA5-4403-AFA9-F614751EF298}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Race.View", "Race.View\Race.View.csproj", "{B591220C-8F08-469E-9C43-180787DCEF6E}"
+	ProjectSection(ProjectDependencies) = postProject
+		{5C0DEC7A-9152-4F7E-9AB4-86245E48EE4A} = {5C0DEC7A-9152-4F7E-9AB4-86245E48EE4A}
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Races.Dal", "Races.Dal\Races.Dal.csproj", "{01B93E2A-C6BD-475E-8275-9525EA986A68}"
+	ProjectSection(ProjectDependencies) = postProject
+		{A8197D36-DFBA-42D2-BAA3-ACBB45885017} = {A8197D36-DFBA-42D2-BAA3-ACBB45885017}
+		{306BEF75-62F2-4657-8FA9-E0532E533368} = {306BEF75-62F2-4657-8FA9-E0532E533368}
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Races.Logic", "Races.Logic\Races.Logic.csproj", "{5C0DEC7A-9152-4F7E-9AB4-86245E48EE4A}"
+	ProjectSection(ProjectDependencies) = postProject
+		{A8197D36-DFBA-42D2-BAA3-ACBB45885017} = {A8197D36-DFBA-42D2-BAA3-ACBB45885017}
+		{306BEF75-62F2-4657-8FA9-E0532E533368} = {306BEF75-62F2-4657-8FA9-E0532E533368}
+		{50D97578-8606-4F28-B5B3-45E5AF753A88} = {50D97578-8606-4F28-B5B3-45E5AF753A88}
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Races.Dto", "Races.Dto\Races.Dto.csproj", "{A8197D36-DFBA-42D2-BAA3-ACBB45885017}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Races.Factory", "Races.Factory\Races.Factory.csproj", "{50D97578-8606-4F28-B5B3-45E5AF753A88}"
+	ProjectSection(ProjectDependencies) = postProject
+		{01B93E2A-C6BD-475E-8275-9525EA986A68} = {01B93E2A-C6BD-475E-8275-9525EA986A68}
+		{306BEF75-62F2-4657-8FA9-E0532E533368} = {306BEF75-62F2-4657-8FA9-E0532E533368}
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Races.Interface", "Races.Interface\Races.Interface.csproj", "{306BEF75-62F2-4657-8FA9-E0532E533368}"
+	ProjectSection(ProjectDependencies) = postProject
+		{A8197D36-DFBA-42D2-BAA3-ACBB45885017} = {A8197D36-DFBA-42D2-BAA3-ACBB45885017}
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
