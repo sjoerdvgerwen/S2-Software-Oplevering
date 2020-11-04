@@ -66,9 +66,6 @@ C:\Users\Sjoerd\Documents\S2 Software\S2-Software-Oplevering\WarehouseManagement
 C:\Users\Sjoerd\Documents\S2 Software\S2-Software-Oplevering\WarehouseManagement\WarehouseManagement\obj\Debug\netcoreapp3.1\WarehouseManagement.csprojAssemblyReference.cache
 C:\Users\Sjoerd\Documents\S2 Software\S2-Software-Oplevering\WarehouseManagement\WarehouseManagement\obj\Debug\netcoreapp3.1\WarehouseManagement.AssemblyInfoInputs.cache
 C:\Users\Sjoerd\Documents\S2 Software\S2-Software-Oplevering\WarehouseManagement\WarehouseManagement\obj\Debug\netcoreapp3.1\WarehouseManagement.AssemblyInfo.cs
-C:\Users\Sjoerd\Documents\S2 Software\S2-Software-Oplevering\WarehouseManagement\WarehouseManagement\obj\Debug\netcoreapp3.1\WarehouseManagement.csproj.CoreCompileInputs.cache
-C:\Users\Sjoerd\Documents\S2 Software\S2-Software-Oplevering\WarehouseManagement\WarehouseManagement\obj\Debug\netcoreapp3.1\WarehouseManagement.MvcApplicationPartsAssemblyInfo.cs
-C:\Users\Sjoerd\Documents\S2 Software\S2-Software-Oplevering\WarehouseManagement\WarehouseManagement\obj\Debug\netcoreapp3.1\WarehouseManagement.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\Sjoerd\Documents\S2 Software\S2-Software-Oplevering\WarehouseManagement\WarehouseManagement\obj\Debug\netcoreapp3.1\WarehouseManagement.RazorAssemblyInfo.cache
 C:\Users\Sjoerd\Documents\S2 Software\S2-Software-Oplevering\WarehouseManagement\WarehouseManagement\obj\Debug\netcoreapp3.1\WarehouseManagement.RazorAssemblyInfo.cs
 C:\Users\Sjoerd\Documents\S2 Software\S2-Software-Oplevering\WarehouseManagement\WarehouseManagement\obj\Debug\netcoreapp3.1\WarehouseManagement.TagHelpers.input.cache
@@ -92,3 +89,9 @@ C:\Users\Sjoerd\Documents\S2 Software\S2-Software-Oplevering\WarehouseManagement
 C:\Users\Sjoerd\Documents\S2 Software\S2-Software-Oplevering\WarehouseManagement\WarehouseManagement\obj\Debug\netcoreapp3.1\WarehouseManagement.dll
 C:\Users\Sjoerd\Documents\S2 Software\S2-Software-Oplevering\WarehouseManagement\WarehouseManagement\obj\Debug\netcoreapp3.1\WarehouseManagement.pdb
 C:\Users\Sjoerd\Documents\S2 Software\S2-Software-Oplevering\WarehouseManagement\WarehouseManagement\obj\Debug\netcoreapp3.1\WarehouseManagement.genruntimeconfig.cache
+C:\Users\Sjoerd\Documents\S2 Software\S2-Software-Oplevering\WarehouseManagement\WarehouseManagement\bin\Debug\netcoreapp3.1\EntityFramework.SqlServer.dll
+C:\Users\Sjoerd\Documents\S2 Software\S2-Software-Oplevering\WarehouseManagement\WarehouseManagement\bin\Debug\netcoreapp3.1\EntityFramework.dll
+C:\Users\Sjoerd\Documents\S2 Software\S2-Software-Oplevering\WarehouseManagement\WarehouseManagement\bin\Debug\netcoreapp3.1\System.CodeDom.dll
+C:\Users\Sjoerd\Documents\S2 Software\S2-Software-Oplevering\WarehouseManagement\WarehouseManagement\bin\Debug\netcoreapp3.1\System.Data.SqlClient.dll
+C:\Users\Sjoerd\Documents\S2 Software\S2-Software-Oplevering\WarehouseManagement\WarehouseManagement\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Sjoerd\Documents\S2 Software\S2-Software-Oplevering\WarehouseManagement\WarehouseManagement\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
