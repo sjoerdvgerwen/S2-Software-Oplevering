@@ -11,8 +11,17 @@ namespace WarehouseManagement1.Data
     {
         public DbSet<Stock> Stocks { get; set; }
 
+        public DbSet<User> Users { get; set; }
+
+        public DbSet<Order> Orders { get; set; }
+
+        public DbSet<Product> Product { get; set; }
+
+
+
         public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options)
             : base(options)
+
         { }
     }
 }

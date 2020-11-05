@@ -8,8 +8,8 @@ using WarehouseManagement1.Data;
 namespace WarehouseManagement1.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20201104115001_InitialModel")]
-    partial class InitialModel
+    [Migration("20201104210443_Stock")]
+    partial class Stock
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -30,6 +30,23 @@ namespace WarehouseManagement1.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("Stocks");
+                });
+
+            modelBuilder.Entity("WarehouseManagement1.Models.User", b =>
+                {
+                    b.Property<int>("UserID")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    b.Property<string>("Password")
+                        .HasColumnType("longtext CHARACTER SET utf8mb4");
+
+                    b.Property<string>("Username")
+                        .HasColumnType("longtext CHARACTER SET utf8mb4");
+
+                    b.HasKey("UserID");
+
+                    b.ToTable("Users");
                 });
 #pragma warning restore 612, 618
         }

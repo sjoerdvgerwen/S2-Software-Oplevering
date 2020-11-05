@@ -934,6 +934,7 @@
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
       "Microsoft.EntityFrameworkCore >= 3.1.9",
+      "Microsoft.EntityFrameworkCore.Design >= 3.1.9",
       "Microsoft.EntityFrameworkCore.Relational >= 3.1.9",
       "Microsoft.EntityFrameworkCore.tools >= 3.1.9",
       "Pomelo.EntityFrameworkCore.MySql >= 3.2.4"
@@ -981,6 +982,12 @@
       "netcoreapp3.1": {
         "dependencies": {
           "Microsoft.EntityFrameworkCore": {
+            "target": "Package",
+            "version": "[3.1.9, )"
+          },
+          "Microsoft.EntityFrameworkCore.Design": {
+            "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+            "suppressParent": "All",
             "target": "Package",
             "version": "[3.1.9, )"
           },
