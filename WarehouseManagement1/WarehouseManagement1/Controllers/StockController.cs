@@ -13,11 +13,17 @@ namespace WarehouseManagement1.Controllers
     public class StockController : Controller
     {
 
-        private readonly ApplicationDbContext _dbContext;
+        private ApplicationDbContext _dbContext;
 
-        public StockController(ApplicationDbContext dbContext)
+
+     //   public StockController(ApplicationDbContext dbContext)
+     //   {
+       //     _dbContext = dbContext;
+      //  }
+
+        public StockController()
         {
-            _dbContext = dbContext;
+            _dbContext = new ApplicationDbContext();
         }
 
 
@@ -28,13 +34,11 @@ namespace WarehouseManagement1.Controllers
             return View(); 
         }
 
-        public IActionResult Test()
-        {
-            var user = _dbContext.Users.First();
-            return Ok(user);
-
-        
-        }
+   //     public IActionResult Test()
+    //    {
+    //        var user = _dbContext.Users.First();
+    //        return Ok(user);
+   //     }
 
         public IActionResult SeedDb()
         {
@@ -48,5 +52,13 @@ namespace WarehouseManagement1.Controllers
 
             return Ok(newStock);
         }
+
+        public IActionResult Index()
+        {
+            var stock = _dbContext.Stocks;
+            return View(stock);
+        }
+
+
     }
 }

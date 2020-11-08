@@ -23,5 +23,9 @@ namespace WarehouseManagement1.Data
             : base(options)
 
         { }
+
+        public ApplicationDbContext()
+        {
+        }
     }
 }
