@@ -26,19 +26,18 @@ namespace Warehouse.Webapp.Controllers
             return View();
         }
 
+
+        // Methode voegt product toe, neemt de waardes over uit ViewModel, en maakt instantie van de klasse.
         public async Task<IActionResult> AddProduct(ProductViewModel product) 
         {
             Product newProduct = new Product()
             {
                 ProductID = Guid.NewGuid(),
                 ProductName = product.ProductName,
-                ProductDescription = product.ProductDescription
-
-                
+                ProductDescription = product.ProductDescription,
             };
-
-            return Ok(await _productRepository.AddProduct(newProduct));
-                
+            
+            return Ok(await _productRepository.AddProduct(newProduct));   
         }
     }
 }

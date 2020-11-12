@@ -8,7 +8,10 @@ using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using MySqlConnector;
 using Practice.Models;
+using Warehouse.Application.Interfaces;
+using Warehouse.Database.Repository;
 
 namespace Practice
 {
@@ -32,6 +35,12 @@ namespace Practice
             //Map the configuration
             var connectionSection = Configuration.GetSection("ConnectionStrings");
             services.Configure<ConnectionStrings>(connectionSection);
+
+            services.AddTransient<MySqlConnection>(_ => new MySqlConnection("server=studmysql01.fhict.local;user=dbi418463;password=database;database=dbi418463"));
+            services.AddTransient<IProductRepository, ProductRepository>(); //DI Kent nu de Application.Interface -> Database.Repository = Pusht iets naar DB.
+            services.AddTransient<IUserRepository, UserRepository>(); 
+
+
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -52,6 +61,7 @@ namespace Practice
 
             app.UseRouting();
 
+            app.UseAuthentication();
             app.UseAuthorization();
 
             app.UseEndpoints(endpoints =>

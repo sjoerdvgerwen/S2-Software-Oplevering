@@ -1,4 +1,4 @@
-﻿using System;
+﻿    using System;
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
@@ -45,12 +45,7 @@ namespace Practice.Controllers
             return View(users);     
         }
 
-        public IActionResult thomas()
-        {
-            return View();
-        }
-
-        public IActionResult Privacy()
+            public IActionResult Privacy()
         {
             return View();
         }

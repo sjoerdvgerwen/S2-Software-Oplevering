@@ -48,3 +48,4 @@ C:\Users\Sjoerd\source\repos\Practice\Practice\obj\Debug\netcoreapp3.1\Warehouse
 C:\Users\Sjoerd\source\repos\Practice\Practice\bin\Debug\netcoreapp3.1\MySqlConnector.dll
 C:\Users\Sjoerd\source\repos\Practice\Practice\obj\Debug\netcoreapp3.1\Warehouse.Webapp.csproj.CoreCompileInputs.cache
 C:\Users\Sjoerd\source\repos\Practice\Practice\obj\Debug\netcoreapp3.1\Warehouse.Webapp.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Sjoerd\source\repos\Practice\Practice\obj\Debug\netcoreapp3.1\Razor\Views\User\Register.cshtml.g.cs

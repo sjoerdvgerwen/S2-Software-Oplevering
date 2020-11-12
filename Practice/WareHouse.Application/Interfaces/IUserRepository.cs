@@ -6,9 +6,9 @@ using Warehouse.Application.Entity;
 
 namespace Warehouse.Application.Interfaces
 {
-    public interface IProductRepository
+    public interface IUserRepository
     {
-        Task<Product> AddProduct(Product product);
+        Task<User> AddUser(User user);
 
     }
 }
