@@ -22,8 +22,6 @@ namespace Circustrein1
             animal.Add(new Animal("Leeuw", (AnimalSize)3, (AnimalType)1));
             animal.Add(new Animal("Uil", (AnimalSize)1, (AnimalType)1));
 
-            
-
 
             Train t = new Train();
             t.AddToWagon(animal);

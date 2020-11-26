@@ -25,7 +25,8 @@ namespace Circustrein1
             s.Replace(",", ")", s.Length - 1, 1);
             return s.ToString();
         }
-        
+
+
 
         public void AddToWagon(List<Animal> animal)
         {
@@ -38,7 +39,7 @@ namespace Circustrein1
                         break;
                     }
 
-                    else if (Wagons.IndexOf(wagon) == Wagons.Count -1) // -1 want array start op 0, count start op 1
+                    else if (Wagons.IndexOf(wagon) == Wagons.Count - 1) // -1 want array start op 0, count start op 1
                     {
                         Wagon newWagon = new Wagon();
                         newWagon.AddAnimalToWagon(obj);
@@ -47,11 +48,6 @@ namespace Circustrein1
                     }
                 }
             }
-        }
-
-        public List<Wagon> GetWagons()
-        {
-            return new List<Wagon>(Wagons);
         }
     }
 }
