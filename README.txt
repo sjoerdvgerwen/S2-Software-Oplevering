@@ -7,13 +7,13 @@ Hopelijk geeft deze sprint oplevering een beter beeld.
 Ik heb grote stappen gemaakt de afgelopen weken:
 - Het begrijpen van syntax
 - Het zelf schrijven van syntax
-- Het begrijpen van ASP.Net Core
+- Het begrijpen van ASP.Net Core & het MVC model.
 - Gewerkt met SQL (zowel lokaal als op de server van school).
-- Verschillende algoritmiek opdrachten gemaakt.
+- Verschillende algoritmiek opdrachten gemaakt (circustrein, races, opdrachten Codewars).
 - etc. etc. etc.
 
-Mochten er na afloop vragen zijn of onduidelijkheden. 
-Aarzel alstublieft niet om contact op te nemen ik licht het u graag toe. 
+Mocht er na afloop onduidelijkheid of vragen zijn, a
+aarzel alstublieft niet om contact op te nemen ik licht het u graag toe. 
 
 Met vriendelijke groet,
 Sjoerd van Gerwen
