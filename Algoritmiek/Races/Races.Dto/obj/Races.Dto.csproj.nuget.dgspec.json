@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Sjoerd\\source\\repos\\Races\\Races.Dto\\Races.Dto.csproj": {}
+    "C:\\Users\\Sjoerd\\Documents\\S2 Software\\S2-Software-Oplevering\\Algoritmiek\\Races\\Races.DTO\\Races.DTO.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Sjoerd\\source\\repos\\Races\\Races.Dto\\Races.Dto.csproj": {
+    "C:\\Users\\Sjoerd\\Documents\\S2 Software\\S2-Software-Oplevering\\Algoritmiek\\Races\\Races.DTO\\Races.DTO.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Sjoerd\\source\\repos\\Races\\Races.Dto\\Races.Dto.csproj",
-        "projectName": "Races.Dto",
-        "projectPath": "C:\\Users\\Sjoerd\\source\\repos\\Races\\Races.Dto\\Races.Dto.csproj",
+        "projectUniqueName": "C:\\Users\\Sjoerd\\Documents\\S2 Software\\S2-Software-Oplevering\\Algoritmiek\\Races\\Races.DTO\\Races.DTO.csproj",
+        "projectName": "Races.DTO",
+        "projectPath": "C:\\Users\\Sjoerd\\Documents\\S2 Software\\S2-Software-Oplevering\\Algoritmiek\\Races\\Races.DTO\\Races.DTO.csproj",
         "packagesPath": "C:\\Users\\Sjoerd\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Sjoerd\\source\\repos\\Races\\Races.Dto\\obj\\",
+        "outputPath": "C:\\Users\\Sjoerd\\Documents\\S2 Software\\S2-Software-Oplevering\\Algoritmiek\\Races\\Races.DTO\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

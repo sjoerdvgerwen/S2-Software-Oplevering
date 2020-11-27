@@ -8,17 +8,17 @@ namespace Races.Logic
     {
         private List<Team> Teams;
 
-        public TeamCollection ()
+        public TeamCollection()
         {
             Teams = new List<Team>();
         }
 
-        public void AddTeam (Team team)
+        public void AddTeam(Team team)
         {
             Teams.Add(team);
         }
 
-        public void RemoveTeam (Team team)
+        public void RemoveTeam(Team team)
         {
             Teams.Remove(team);
         }

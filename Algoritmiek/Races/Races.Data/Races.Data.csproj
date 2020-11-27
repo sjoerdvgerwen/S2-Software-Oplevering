@@ -7,6 +7,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Races.DTO\Races.DTO.csproj" />
+    <ProjectReference Include="..\Races.Interface\Races.Interface.csproj" />
   </ItemGroup>
 
 </Project>

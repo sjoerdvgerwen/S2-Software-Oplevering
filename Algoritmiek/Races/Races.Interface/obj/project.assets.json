@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    ".NETCoreApp,Version=v3.1": {}
+    ".NETCoreApp,Version=v3.1": {
+      "Races.DTO/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/Races.DTO.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Races.DTO.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "Races.DTO/1.0.0": {
+      "type": "project",
+      "path": "../Races.DTO/Races.DTO.csproj",
+      "msbuildProject": "../Races.DTO/Races.DTO.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    ".NETCoreApp,Version=v3.1": []
+    ".NETCoreApp,Version=v3.1": [
+      "Races.DTO >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\Sjoerd\\.nuget\\packages\\": {},
@@ -14,11 +33,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Sjoerd\\source\\repos\\Races\\Races.Interface\\Races.Interface.csproj",
+      "projectUniqueName": "C:\\Users\\Sjoerd\\Documents\\S2 Software\\S2-Software-Oplevering\\Algoritmiek\\Races\\Races.Interface\\Races.Interface.csproj",
       "projectName": "Races.Interface",
-      "projectPath": "C:\\Users\\Sjoerd\\source\\repos\\Races\\Races.Interface\\Races.Interface.csproj",
+      "projectPath": "C:\\Users\\Sjoerd\\Documents\\S2 Software\\S2-Software-Oplevering\\Algoritmiek\\Races\\Races.Interface\\Races.Interface.csproj",
       "packagesPath": "C:\\Users\\Sjoerd\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Sjoerd\\source\\repos\\Races\\Races.Interface\\obj\\",
+      "outputPath": "C:\\Users\\Sjoerd\\Documents\\S2 Software\\S2-Software-Oplevering\\Algoritmiek\\Races\\Races.Interface\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -36,7 +55,11 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\Sjoerd\\Documents\\S2 Software\\S2-Software-Oplevering\\Algoritmiek\\Races\\Races.DTO\\Races.DTO.csproj": {
+              "projectPath": "C:\\Users\\Sjoerd\\Documents\\S2 Software\\S2-Software-Oplevering\\Algoritmiek\\Races\\Races.DTO\\Races.DTO.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
