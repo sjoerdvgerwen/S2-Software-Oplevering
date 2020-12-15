@@ -39,7 +39,7 @@ namespace Circustrein1
                         break;
                     }
 
-                    else if (Wagons.IndexOf(wagon) == Wagons.Count - 1) // -1 want array start op 0, count start op 1
+                    else if (Wagons.IndexOf(wagon) == Wagons.Count - 1)
                     {
                         Wagon newWagon = new Wagon();
                         newWagon.AddAnimalToWagon(obj);
