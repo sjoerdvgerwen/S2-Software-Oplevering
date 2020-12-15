@@ -21,7 +21,7 @@ namespace Circustrein1
 
         public override string ToString()
         {
-            return $"{Name} | {Size.ToString()} | {Type.ToString()}";
+            return Name + " " + Size + " "  + Type;
         }
 
     }

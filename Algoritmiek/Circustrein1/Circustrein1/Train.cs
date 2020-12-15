@@ -8,25 +8,21 @@ namespace Circustrein1
     {
         public List<Wagon> Wagons;
 
-
         public Train()
         {
-            Wagons = new List<Wagon>() { new Wagon() };
+            Wagons = new List<Wagon>() {new Wagon()};
         }
 
         public override string ToString()
         {
             StringBuilder s = new StringBuilder();
-            s.Append("(");
             foreach (Wagon wagon in Wagons)
             {
-                s.Append(wagon.ToString() + ",");
+                s.Append(wagon.ToString() + "\n" + "\n");
             }
-            s.Replace(",", ")", s.Length - 1, 1);
+
             return s.ToString();
         }
-
-
 
         public void AddToWagon(List<Animal> animal)
         {
@@ -39,7 +35,7 @@ namespace Circustrein1
                         break;
                     }
 
-                    else if (Wagons.IndexOf(wagon) == Wagons.Count - 1)
+                    else if (Wagons.IndexOf(wagon) == Wagons.Count - 1) 
                     {
                         Wagon newWagon = new Wagon();
                         newWagon.AddAnimalToWagon(obj);
