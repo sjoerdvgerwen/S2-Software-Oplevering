@@ -13,7 +13,7 @@ namespace Circustrein.UnitTest1
             //Arrange
             Wagon wagon = new Wagon();
 
-
+    
             //Act
 
 
