@@ -34,15 +34,6 @@
           }
         }
       },
-      "MySqlConnector/1.1.0": {
-        "type": "package",
-        "compile": {
-          "lib/netcoreapp3.1/MySqlConnector.dll": {}
-        },
-        "runtime": {
-          "lib/netcoreapp3.1/MySqlConnector.dll": {}
-        }
-      },
       "runtime.native.System.Data.SqlClient.sni/4.7.0": {
         "type": "package",
         "dependencies": {
@@ -139,33 +130,6 @@
             "rid": "win"
           }
         }
-      },
-      "Warehouse.Application/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v3.1",
-        "dependencies": {
-          "MySqlConnector": "1.1.0"
-        },
-        "compile": {
-          "bin/placeholder/Warehouse.Application.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/Warehouse.Application.dll": {}
-        }
-      },
-      "Warehouse.Database/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v3.1",
-        "dependencies": {
-          "MySqlConnector": "1.1.0",
-          "Warehouse.Application": "1.0.0"
-        },
-        "compile": {
-          "bin/placeholder/Warehouse.Database.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/Warehouse.Database.dll": {}
-        }
       }
     }
   },
@@ -232,36 +196,6 @@
         "runtimes/win/lib/netstandard2.0/Microsoft.Win32.Registry.xml",
         "useSharedDesignerContext.txt",
         "version.txt"
-      ]
-    },
-    "MySqlConnector/1.1.0": {
-      "sha512": "RQPR2vkQjSiyGH2mV17K4+gDcgI8hidxgD2qli3OcRupvqpQjoL6S35M3ZjIM6CXC0TgImvJo3HA/fLSOG+oBA==",
-      "type": "package",
-      "path": "mysqlconnector/1.1.0",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "lib/net45/MySqlConnector.dll",
-        "lib/net45/MySqlConnector.xml",
-        "lib/net461/MySqlConnector.dll",
-        "lib/net461/MySqlConnector.xml",
-        "lib/net471/MySqlConnector.dll",
-        "lib/net471/MySqlConnector.xml",
-        "lib/net5.0/MySqlConnector.dll",
-        "lib/net5.0/MySqlConnector.xml",
-        "lib/netcoreapp2.1/MySqlConnector.dll",
-        "lib/netcoreapp2.1/MySqlConnector.xml",
-        "lib/netcoreapp3.1/MySqlConnector.dll",
-        "lib/netcoreapp3.1/MySqlConnector.xml",
-        "lib/netstandard1.3/MySqlConnector.dll",
-        "lib/netstandard1.3/MySqlConnector.xml",
-        "lib/netstandard2.0/MySqlConnector.dll",
-        "lib/netstandard2.0/MySqlConnector.xml",
-        "lib/netstandard2.1/MySqlConnector.dll",
-        "lib/netstandard2.1/MySqlConnector.xml",
-        "logo.png",
-        "mysqlconnector.1.1.0.nupkg.sha512",
-        "mysqlconnector.nuspec"
       ]
     },
     "runtime.native.System.Data.SqlClient.sni/4.7.0": {
@@ -509,24 +443,11 @@
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
-    },
-    "Warehouse.Application/1.0.0": {
-      "type": "project",
-      "path": "../WareHouse.Application/Warehouse.Application.csproj",
-      "msbuildProject": "../WareHouse.Application/Warehouse.Application.csproj"
-    },
-    "Warehouse.Database/1.0.0": {
-      "type": "project",
-      "path": "../Warehouse.Domain/Warehouse.Database.csproj",
-      "msbuildProject": "../Warehouse.Domain/Warehouse.Database.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
-      "MySqlConnector >= 1.1.0",
-      "System.Data.SqlClient >= 4.8.2",
-      "Warehouse.Application >= 1.0.0",
-      "Warehouse.Database >= 1.0.0"
+      "System.Data.SqlClient >= 4.8.2"
     ]
   },
   "packageFolders": {
@@ -536,11 +457,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Sjoerd\\source\\repos\\Practice\\Practice\\Warehouse.Webapp.csproj",
-      "projectName": "Warehouse.Webapp",
-      "projectPath": "C:\\Users\\Sjoerd\\source\\repos\\Practice\\Practice\\Warehouse.Webapp.csproj",
+      "projectUniqueName": "C:\\Users\\Sjoerd\\Documents\\S2 Software\\S2-Software-Oplevering\\Individueel Project\\FINAL INDIVIDUEEL PROJECT ASP.NET CORE\\Practice\\Practice\\Practice.csproj",
+      "projectName": "Practice",
+      "projectPath": "C:\\Users\\Sjoerd\\Documents\\S2 Software\\S2-Software-Oplevering\\Individueel Project\\FINAL INDIVIDUEEL PROJECT ASP.NET CORE\\Practice\\Practice\\Practice.csproj",
       "packagesPath": "C:\\Users\\Sjoerd\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Sjoerd\\source\\repos\\Practice\\Practice\\obj\\",
+      "outputPath": "C:\\Users\\Sjoerd\\Documents\\S2 Software\\S2-Software-Oplevering\\Individueel Project\\FINAL INDIVIDUEEL PROJECT ASP.NET CORE\\Practice\\Practice\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -558,14 +479,7 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "projectReferences": {
-            "C:\\Users\\Sjoerd\\source\\repos\\Practice\\WareHouse.Application\\Warehouse.Application.csproj": {
-              "projectPath": "C:\\Users\\Sjoerd\\source\\repos\\Practice\\WareHouse.Application\\Warehouse.Application.csproj"
-            },
-            "C:\\Users\\Sjoerd\\source\\repos\\Practice\\Warehouse.Domain\\Warehouse.Database.csproj": {
-              "projectPath": "C:\\Users\\Sjoerd\\source\\repos\\Practice\\Warehouse.Domain\\Warehouse.Database.csproj"
-            }
-          }
+          "projectReferences": {}
         }
       },
       "warningProperties": {
@@ -577,10 +491,6 @@
     "frameworks": {
       "netcoreapp3.1": {
         "dependencies": {
-          "MySqlConnector": {
-            "target": "Package",
-            "version": "[1.1.0, )"
-          },
           "System.Data.SqlClient": {
             "target": "Package",
             "version": "[4.8.2, )"

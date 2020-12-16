@@ -25,7 +25,11 @@ namespace Circustrein1
 
             Train t = new Train();
             t.AddToWagon(animal);
+
             Console.WriteLine(t);
+            
+            
+            
         }
     }
 }

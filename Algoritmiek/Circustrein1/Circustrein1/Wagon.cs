@@ -27,31 +27,33 @@ namespace Circustrein1
                 s.Append(animal.ToString() + ",");
             }
             s.Replace(",", ")", s.Length - 1, 1);
+            
             return s.ToString();
         }
+        
 
         public bool AddAnimalToWagon(Animal animal)
         {
-            if (CheckWagonCapacity(animal) && AddHerbivore(animal) && SafeToAddCarnivore(animal) && CheckCarnivoreSize(animal))
+            if (CheckWagonCapacity(animal) && AddHerbivore(animal) && SafeToAddCarnivore(animal) &&
+                CheckCarnivoreSize(animal))
             {
                 AnimalList.Add(animal);
-                Capacity += (int)animal.Size;
+                Capacity += (int) animal.Size;
                 return true;
             }
+
             return false;
         }
-
-
 
         public bool CheckWagonCapacity(Animal animal)
         {
-            if ((int)animal.Size + Capacity <= MaxCapacity)
+            if ((int) animal.Size + Capacity <= MaxCapacity)
             {
                 return true;
             }
+
             return false;
         }
-
 
         public bool AddHerbivore(Animal animal)
         {
@@ -62,9 +64,9 @@ namespace Circustrein1
                     return false;
                 }
             }
+
             return true;
         }
-
 
         public bool SafeToAddCarnivore(Animal animal)
         {
@@ -75,9 +77,9 @@ namespace Circustrein1
                     return false;
                 }
             }
+
             return true;
         }
-
 
         public bool CheckCarnivoreSize(Animal animal)
         {
@@ -88,8 +90,8 @@ namespace Circustrein1
                     return false;
                 }
             }
+
             return true;
         }
     }
 }
-
