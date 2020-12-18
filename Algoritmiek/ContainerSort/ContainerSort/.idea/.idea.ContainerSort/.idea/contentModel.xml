@@ -17,6 +17,7 @@
         </e>
         <e p="Program.cs" t="Include" />
         <e p="Ship.cs" t="Include" />
+        <e p="Stack.cs" t="Include" />
       </e>
       <e p="ContainerSort.sln" t="IncludeFlat" />
       <e p="packages" t="ExcludeRecursive" />

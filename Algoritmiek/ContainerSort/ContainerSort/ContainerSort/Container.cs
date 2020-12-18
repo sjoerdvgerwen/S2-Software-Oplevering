@@ -1,3 +1,5 @@
+using System.Collections.Generic;
+
 namespace ContainerSort
 {
     public class Container
@@ -12,8 +14,7 @@ namespace ContainerSort
             Coolable = coolable;
             Valuable = valuable;
         }
-
-        Ship ship = new Ship();
+        
         
         
     }
