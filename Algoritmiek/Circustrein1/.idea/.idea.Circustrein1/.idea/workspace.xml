@@ -23,32 +23,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c43c0d44-5a65-4768-ad7e-aab13266a9d4" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.vs/Circustrein1/DesignTimeBuild/.dtbcache.v2" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/Circustrein1/DesignTimeBuild/.dtbcache.v2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vs/Circustrein1/v16/.suo" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/Circustrein1/v16/.suo" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Circustrein1.sln" beforeDir="false" afterPath="$PROJECT_DIR$/Circustrein1.sln" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Circustrein1/Animal.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Circustrein1/Animal.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Circustrein1/Circustrein1.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Circustrein1/Circustrein1.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Circustrein1/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Circustrein1/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Circustrein1/Train.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Circustrein1/Train.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Circustrein1/Wagon.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Circustrein1/Wagon.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Circustrein1/bin/Debug/netcoreapp3.1/Circustrein1.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Circustrein1/bin/Debug/netcoreapp3.1/Circustrein1.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Circustrein1/bin/Debug/netcoreapp3.1/Circustrein1.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Circustrein1/bin/Debug/netcoreapp3.1/Circustrein1.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Circustrein1/bin/Debug/netcoreapp3.1/Circustrein1.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Circustrein1/bin/Debug/netcoreapp3.1/Circustrein1.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Circustrein1/obj/Circustrein1.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Circustrein1/obj/Circustrein1.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Circustrein1/obj/Circustrein1.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/Circustrein1/obj/Circustrein1.csproj.nuget.g.props" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Circustrein1/obj/Debug/netcoreapp3.1/Circustrein1.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Circustrein1/obj/Debug/netcoreapp3.1/Circustrein1.assets.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Circustrein1/obj/Debug/netcoreapp3.1/Circustrein1.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Circustrein1/obj/Debug/netcoreapp3.1/Circustrein1.csprojAssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Circustrein1/obj/Debug/netcoreapp3.1/Circustrein1.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Circustrein1/obj/Debug/netcoreapp3.1/Circustrein1.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Circustrein1/obj/Debug/netcoreapp3.1/Circustrein1.genruntimeconfig.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Circustrein1/obj/Debug/netcoreapp3.1/Circustrein1.genruntimeconfig.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Circustrein1/obj/Debug/netcoreapp3.1/Circustrein1.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Circustrein1/obj/Debug/netcoreapp3.1/Circustrein1.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Circustrein1/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/Circustrein1/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Circustrein1/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Circustrein1/obj/project.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ContainerSort/ContainerSort/.idea/.idea.ContainerSort/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ContainerSort/ContainerSort/.idea/.idea.ContainerSort/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ContainerSort/ContainerSort/ContainerSort/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../ContainerSort/ContainerSort/ContainerSort/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ContainerSort/ContainerSort/ContainerSort/Ship.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../ContainerSort/ContainerSort/ContainerSort/Ship.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ContainerSort/ContainerSort/ContainerSort/obj/Debug/net472/ContainerSort.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../ContainerSort/ContainerSort/ContainerSort/obj/Debug/net472/ContainerSort.csprojAssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Analyse &amp; Ontwerp/Analyse&amp;Ontwerp_SjoerdvanGerwen.docx" beforeDir="false" afterPath="$PROJECT_DIR$/../../Analyse &amp; Ontwerp/Analyse&amp;Ontwerp_SjoerdvanGerwen.docx" afterDir="false" />
+    <list default="true" id="c43c0d44-5a65-4768-ad7e-aab13266a9d4" name="Default Changelist" comment="Push minimal changes">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Circustrein1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Circustrein1/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Circustrein1/obj/Debug/netcoreapp5.0/Circustrein1.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Circustrein1/obj/Debug/netcoreapp5.0/Circustrein1.csprojAssemblyReference.cache" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,6 +59,7 @@
     <property name="DebuggerViewTab_PTCS_LastProportionKey" value="0.30010834" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -133,7 +111,16 @@
       <updated>1607952484141</updated>
       <workItem from="1607952492865" duration="4009000" />
       <workItem from="1608023613168" duration="7182000" />
+      <workItem from="1608318308875" duration="2185000" />
     </task>
+    <task id="LOCAL-00001" summary="Push minimal changes">
+      <created>1608318453334</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1608318453334</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -155,6 +142,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+    <MESSAGE value="Push minimal changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Push minimal changes" />
   </component>
   <component name="WindowStateProjectService">
     <state width="1877" height="375" key="GridCell.Tab.0.bottom" timestamp="1608033276665">
@@ -237,13 +226,17 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="375" key="GridCell.Tab.4.right/0.0.1920.1040@0.0.1920.1040" timestamp="1608033276666" />
-    <state x="552" y="252" key="Rider.ProjectTemplateDialog.Size" timestamp="1608022625460">
+    <state x="552" y="252" key="Rider.ProjectTemplateDialog.Size" timestamp="1608321025319">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="252" key="Rider.ProjectTemplateDialog.Size/0.0.1920.1040@0.0.1920.1040" timestamp="1608022625460" />
+    <state x="552" y="252" key="Rider.ProjectTemplateDialog.Size/0.0.1920.1040@0.0.1920.1040" timestamp="1608321025319" />
     <state x="461" y="165" key="SettingsEditor" timestamp="1608024510070">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="165" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1608024510070" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1608318459848">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1608318459848" />
   </component>
 </project>
